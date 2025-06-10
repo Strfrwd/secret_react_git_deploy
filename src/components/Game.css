@@ -1,0 +1,62 @@
+/* estiliza o h1 dentro do elemento de classe game*/
+.game h1{
+    font-size: 2.5 em;
+}
+
+/* o span dentro do elemento de classe points. bold para dar destaque aos pontos */
+.points span {
+    font-weight: bold;
+
+}
+
+/* dica na cor dourada que fica em um span no escopo da classe tip  */
+.tip span{
+    color: #ecfa00;
+}
+
+/* posição onde a palavra vai aparecer letra a letra. quadrado dourdado-*/
+.wordContainer{
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #ecfa00; 
+    display: flex;
+   
+
+}
+
+
+/*  os quadros com letra e quadros em branco. Estilos de fonte são aplicados quando a letra estiver presente */
+/* Não podia ser a mesma classe? */
+.letter, .blankSquare {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #000;
+    height: 100px;          /* tamanhos para criar um quadrado */
+    width: 100px;         
+    text-transform: uppercase;   /* exibição em maiúsculos independente da digitação*/
+    background-color: blanchedalmond;     /* fundo claro e cor do fonte preto pra dar destaque  */     
+    color: #000;          
+    font-weight: bold;
+
+}
+
+/* Posição para informar a letra*/
+.letterContainer p{
+    margin-bottom: 1.2em; 
+}
+
+.letterContainer form {
+    display:flex;   /* Botão vai ficar do lodo do input*/
+    align-items: center;
+    justify-content: center;
+}
+
+.letterContainer input{
+    height: 50px;     /* input quadrado já que é apanas para uma letra*/
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;  /*descolar o botão do input*/
+    
+
+}
