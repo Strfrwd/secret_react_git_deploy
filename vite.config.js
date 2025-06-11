@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   //plugins: [react()],
-    base: "/",
+    base: "/secret_react_git_deploy",
     plugins: [react()],
     preview: {
      port: 3000,
